@@ -15,19 +15,19 @@ from flask import Flask, Response, request
 app = Flask(__name__, static_url_path='', static_folder='.')
 app.add_url_rule('/', 'root', lambda: app.send_static_file('index.html'))
 
-@app.route('/comments.json', methods=['GET', 'POST'])
-def comments_handler():
+@app.route('/data.json', methods=['GET', 'POST'])
+def data_handler():
 
-    with open('comments.json', 'r') as file:
-        comments = json.loads(file.read())
+    with open('data.json', 'r') as file:
+        data = json.loads(file.read())
 
     if request.method == 'POST':
-        comments.append(request.form.to_dict())
+        data.append(request.get_json())
+        
+        with open('data.json', 'w') as file:
+            file.write(json.dumps(data, indent=4, separators=(',', ': ')))
 
-        with open('comments.json', 'w') as file:
-            file.write(json.dumps(comments, indent=4, separators=(',', ': ')))
-
-    return Response(json.dumps(comments), mimetype='application/json', headers={'Cache-Control': 'no-cache'})
+    return Response(json.dumps(data), mimetype='application/json', headers={'Cache-Control': 'no-cache'})
 
 if __name__ == '__main__':
     app.run(port=int(os.environ.get("PORT",3000)))

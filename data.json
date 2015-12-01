@@ -1,0 +1,49 @@
+[
+    {
+        "imageUrl": "../images/marktwain.jpg",
+        "books": [
+            "The Adventures of Huckleberry Finn",
+            "The Adventures of Tom Sawyer"
+        ],
+        "name": "Mark Twain"
+    },
+    {
+        "imageUrl": "../images/Shakespeare.jpg",
+        "books": [
+            "Macbeth",
+            "Romeo and Juliet",
+            "Hamlet"
+        ],
+        "name": "William Shakespeare"
+    },
+    {
+        "imageUrl": "../images/Stephen_King.jpg",
+        "books": [
+            "The Shinning",
+            "The Standing",
+            "It"
+        ],
+        "name": "Stephen King"
+    },
+    {
+        "imageUrl": "../images/Oscar_Wilde.jpg",
+        "books": [
+            "The Picture of Dorian Gray"
+        ],
+        "name": "Oscar Wilde"
+    },
+    {
+        "imageUrl": "../images/Jane_Austen.jpg",
+        "books": [
+            "Pride and Prejudice"
+        ],
+        "name": "Jane Austen"
+    },
+    {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/1280px-J._K._Rowling_2010.jpg",
+        "books": [
+            "Harry Potter and the Sorcerer's Stone"
+        ],
+        "name": "JK Rowling"
+    }
+]

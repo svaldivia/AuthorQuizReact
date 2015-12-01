@@ -2,11 +2,33 @@
 <html>
     <head>
         <meta charset="utf-8" content="width=device-width, initial-scale=1.0">
-        <title></title>
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="css/app.css" media="screen" title="no title" charset="utf-8">
+        <script src="/js/routie.min.js"></script>
+        <title>Author Quiz</title>
     </head>
     <body>
-        <div id="app"></div>
-        <div class="test" style="background-color: red; width: 100%; height:40px;"></div>
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Author Quiz</h1>
+                <p>
+                    Select the book written by the author shown
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="app"></div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <p class="credit text-muted">
+                    All images are from <a href="http://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a>
+                    and are in the public domain
+                </p>
+            </div>
+        </div>
         <script src="bundle.js"></script>
     </body>
 </html>

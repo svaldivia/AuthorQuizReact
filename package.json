@@ -1,0 +1,25 @@
+{
+  "name": "authorquizreact",
+  "version": "1.0.0",
+  "description": "Based of the Pluralsight tutorial + some additions and improvements :)",
+  "main": "bundle.js",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "jquery": "^2.1.4",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svaldivia/AuthorQuizReact.git"
+  },
+  "author": "Sebastian Valdivia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svaldivia/AuthorQuizReact/issues"
+  },
+  "homepage": "https://github.com/svaldivia/AuthorQuizReact#readme"
+}

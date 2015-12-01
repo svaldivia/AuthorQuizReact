@@ -1,0 +1,32 @@
+.authorimage {
+    width: 300px;
+}
+
+.answer{
+    background-color: rgba(117, 170, 226, 0.41);
+    padding: 15px;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+.answer:hover{
+    background-color:rgba(117, 170, 226, 0.56);
+}
+
+.credit {
+    margin-top: 20px;
+}
+
+.pass{
+    background-color: rgb(28, 117, 32);
+    height:326px;
+}
+.fail{
+    background-color: rgb(196, 28, 28);
+    height:326px;
+}
+
+.button{
+    float: right;
+}
