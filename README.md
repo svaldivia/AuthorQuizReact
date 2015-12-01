@@ -19,3 +19,4 @@ Author Quiz Tutorial from Pluralsight. This repo was initially based out of the 
 ##To Do
  - Improve flow between views
  - Fix some styling issues
+ - Fix npm modules and remove from repo
